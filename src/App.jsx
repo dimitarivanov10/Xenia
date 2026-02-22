@@ -1,13 +1,16 @@
 import { useState } from "react";
 import HeaderView from "./components/HeaderView.jsx";
 import LoadingView from "./components/LoadingView.jsx";
+import MainBannerView from "./components/MainBannerView.jsx";
 
 function App() {
   return (
     <main>
-      <LoadingView />
+      {/* <LoadingView /> */}
 
       <HeaderView />
+
+      <MainBannerView />
     </main>
   );
 }
