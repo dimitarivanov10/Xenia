@@ -50,7 +50,8 @@ export default function VisitCountryView() {
                           </ul>
                           <div className="text-button">
                             <a href="about.html">
-                              Need Directions ?<i className="fa fa-arrow-right"></i>
+                              Need Directions ?
+                              <i className="fa fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
@@ -92,7 +93,8 @@ export default function VisitCountryView() {
                           </ul>
                           <div className="text-button">
                             <a href="about.html">
-                              Need Directions ?<i className="fa fa-arrow-right"></i>
+                              Need Directions ?
+                              <i className="fa fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
@@ -140,7 +142,8 @@ export default function VisitCountryView() {
                           </ul>
                           <div className="text-button">
                             <a href="about.html">
-                              Need Directions ?<i className="fa fa-arrow-right"></i>
+                              Need Directions ?
+                              <i className="fa fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
@@ -184,7 +187,7 @@ export default function VisitCountryView() {
                       width="100%"
                       height="550px"
                       frameBorder="0"
-                      style="border: 0; border-radius: 23px"
+                      style={{ border: 0, borderRadius: "23px" }}
                       allowFullScreen=""
                     ></iframe>
                   </div>

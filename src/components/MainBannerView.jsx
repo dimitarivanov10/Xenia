@@ -7,7 +7,7 @@ export default function MainBannerView() {
           id="banner1"
           className="sec-1-input"
           name="banner"
-          checked
+          defaultChecked
         />
         <input type="radio" id="banner2" className="sec-1-input" name="banner" />
         <input type="radio" id="banner3" className="sec-1-input" name="banner" />
