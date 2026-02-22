@@ -216,25 +216,25 @@ export default function MainBannerView() {
         </div>
         <nav>
           <div className="controls">
-            <label for="banner1">
+            <label htmlFor="banner1">
               <span className="progressbar">
                 <span className="progressbar-fill"></span>
               </span>
               <span className="text">1</span>
             </label>
-            <label for="banner2">
+            <label htmlFor="banner2">
               <span className="progressbar">
                 <span className="progressbar-fill"></span>
               </span>
               <span className="text">2</span>
             </label>
-            <label for="banner3">
+            <label htmlFor="banner3">
               <span className="progressbar">
                 <span className="progressbar-fill"></span>
               </span>
               <span className="text">3</span>
             </label>
-            <label for="banner4">
+            <label htmlFor="banner4">
               <span className="progressbar">
                 <span className="progressbar-fill"></span>
               </span>
