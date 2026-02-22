@@ -1,16 +1,16 @@
 export default function HeaderView() {
   return (
-    <header class="header-area header-sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav">
-              <a href="index.html" class="logo">
+    <header className="header-area header-sticky">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <nav className="main-nav">
+              <a href="index.html" className="logo">
                 <img src="src/assets/images/logo.png" alt="" />
               </a>
-              <ul class="nav">
+              <ul className="nav">
                 <li>
-                  <a href="index.html" class="active">
+                  <a href="index.html" className="active">
                     Home
                   </a>
                 </li>
@@ -27,7 +27,7 @@ export default function HeaderView() {
                   <a href="reservation.html">Book Yours</a>
                 </li>
               </ul>
-              <a class="menu-trigger">
+              <a className="menu-trigger">
                 <span>Menu</span>
               </a>
             </nav>
