@@ -1,4 +1,4 @@
-export default function CallToAction() {
+export default function CallToActionView() {
   return (
     <div class="call-to-action">
       <div class="container">

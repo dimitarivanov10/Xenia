@@ -3,7 +3,8 @@ import HeaderView from "./components/HeaderView.jsx";
 import LoadingView from "./components/LoadingView.jsx";
 import MainBannerView from "./components/MainBannerView.jsx";
 import VisitCountryView from "./components/VisitCountryView.jsx";
-import CallToAction from "./components/CalltoAction.jsx";
+import CallToActionView from "./components/CalltoActionView.jsx";
+import FooterView from "./components/FooterView.jsx";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
 
       <MainBannerView />
       <VisitCountryView />
-      <CallToAction />
+      <CallToActionView />
+      <FooterView />
     </main>
   );
 }
