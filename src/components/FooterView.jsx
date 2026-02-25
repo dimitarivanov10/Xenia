@@ -1,9 +1,9 @@
 export default function FooterView() {
   return (
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
             <p>
               Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights
               reserved. <br />
