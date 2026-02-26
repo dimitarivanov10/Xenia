@@ -3,6 +3,7 @@ import LoadingView from "./components/LoadingView.jsx";
 import HeaderView from "./components/HeaderView.jsx";
 import FooterView from "./components/FooterView.jsx";
 import HomeView from "./views/HomeView.jsx";
+import CallToActionView from "./components/CalltoActionView.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeaderView />
 
       <HomeView />
+      <CallToActionView />
       <FooterView />
     </main>
   );
