@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function HeaderView() {
   return (
     <header className="header-area header-sticky">
@@ -5,28 +7,32 @@ export default function HeaderView() {
         <div className="row">
           <div className="col-12">
             <nav className="main-nav">
-              <a href="index.html" className="logo">
+              {/* Logo Link */}
+              <NavLink to="/" className="logo">
                 <img src="src/assets/images/logo.png" alt="" />
-              </a>
+              </NavLink>
+
               <ul className="nav">
                 <li>
-                  <a href="index.html" className="active">
+                  {/* 'end' ensures Home isn't highlighted when you are on /about */}
+                  <NavLink to="/" end>
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                  <a href="deals.html">Deals</a>
+                  <NavLink to="/deals">Deals</NavLink>
                 </li>
                 <li>
-                  <a href="reservation.html">Reservation</a>
+                  <NavLink to="/reservation">Reservation</NavLink>
                 </li>
                 <li>
-                  <a href="reservation.html">Book Yours</a>
+                  <NavLink to="/book">Book Yours</NavLink>
                 </li>
               </ul>
+
               <a className="menu-trigger">
                 <span>Menu</span>
               </a>

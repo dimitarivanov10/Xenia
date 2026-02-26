@@ -1,7 +1,7 @@
-import AboutCityView from "../components/AboutCitiesView.jsx";
+import AboutCityView from "../components/AboutCityView.jsx";
 import AboutMainBannerView from "../components/AboutMainBannerView.jsx";
 import AboutWeeklyOffers from "../components/AboutWeeklyOffers.jsx";
-import {useState} from React;
+import {useState} from "react";
 import AboutMoreView from "../components/AboutMoreView.jsx";
 import AboutBestLocationsView from "../components/AboutBestLocationsView.jsx";
 
