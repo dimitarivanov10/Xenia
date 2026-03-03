@@ -7,7 +7,7 @@ export default function DealsPageHeadingView() {
             <h4>Discover Our Weekly Offers</h4>
             <h2>Amazing Prices &amp; More</h2>
             <div className="border-button">
-              <a href="about.html">Discover More</a>
+              <Link to="/about">Discover More</Link>
             </div>
           </div>
         </div>
