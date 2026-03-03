@@ -8,6 +8,7 @@ import FooterView from "./components/FooterView.jsx";
 import HomeView from "./views/HomeView.jsx";
 import CallToActionView from "./components/CalltoActionView.jsx";
 import AboutView from "./views/AboutView.jsx";
+import DealsView from "./views/DealsView.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeView />} />
         <Route path="/about" element={<AboutView />} />
+        <Route path="/deals" element={<DealsView />} />
       </Routes>
       <FooterView />
     </Router>
