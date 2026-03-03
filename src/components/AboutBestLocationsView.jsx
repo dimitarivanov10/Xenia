@@ -19,7 +19,7 @@ export default function AboutBestLocationsView() {
                 className="option active"
                 style={{
                   "--optionBackground":
-                    "url(https://buttoncreatives.com/html/woox/assets/images/best-01.jpg)",
+                    "url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0c/de/66/caption.jpg?w=1200&h=700&s=1)",
                 }}
               >
                 <div className="shadow"></div>
@@ -38,7 +38,7 @@ export default function AboutBestLocationsView() {
                 className="option"
                 style={{
                   "--optionBackground":
-                    "url(https://buttoncreatives.com/html/woox/assets/images/best-02.jpg)",
+                    "url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0c/de/66/caption.jpg?w=1200&h=700&s=1)",
                 }}
               >
                 <div className="shadow"></div>
@@ -57,7 +57,7 @@ export default function AboutBestLocationsView() {
                 className="option"
                 style={{
                   "--optionBackground":
-                    "url(https://buttoncreatives.com/html/woox/assets/images/best-03.jpg)",
+                    "url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0c/de/66/caption.jpg?w=1200&h=700&s=1)",
                 }}
               >
                 <div className="shadow"></div>
@@ -76,7 +76,7 @@ export default function AboutBestLocationsView() {
                 className="option"
                 style={{
                   "--optionBackground":
-                    "url(https://buttoncreatives.com/html/woox/assets/images/best-04.jpg)",
+                    "url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0c/de/66/caption.jpg?w=1200&h=700&s=1)",
                 }}
               >
                 <div className="shadow"></div>
@@ -95,7 +95,7 @@ export default function AboutBestLocationsView() {
                 className="option"
                 style={{
                   "--optionBackground":
-                    "url(https://buttoncreatives.com/html/woox/assets/images/best-05.jpg)",
+                    "url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0c/de/66/caption.jpg?w=1200&h=700&s=1)",
                 }}
               >
                 <div className="shadow"></div>
