@@ -9,6 +9,7 @@ import HomeView from "./views/HomeView.jsx";
 import CallToActionView from "./components/CalltoActionView.jsx";
 import AboutView from "./views/AboutView.jsx";
 import DealsView from "./views/DealsView.jsx";
+import ReservationView from "./views/ReservationView.jsx";
 
 function App() {
   return (
