@@ -1,9 +1,9 @@
 export default function ReservationSecondPageHeadingView() {
   return (
-    <div class="second-page-heading">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
+    <div className="second-page-heading">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
             <h4>Book Prefered Deal Here</h4>
             <h2>Make Your Reservation</h2>
             <p>
@@ -11,7 +11,7 @@ export default function ReservationSecondPageHeadingView() {
               eiusmod tempor incididunt uttersi labore et dolore magna aliqua is
               ipsum suspendisse ultrices gravida
             </p>
-            <div class="main-button">
+            <div className="main-button">
               <a href="about.html">Discover More</a>
             </div>
           </div>
